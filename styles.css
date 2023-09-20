@@ -1,0 +1,73 @@
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: 70px;
+}
+.head {
+    top: 10px;
+    left: 31px;
+    position: absolute;
+
+
+}
+.head img.logo {
+    display: block;
+    float: left;
+    width: 182px;
+    height: 182px;
+}
+.head ul {
+    margin-left: 15vw;
+    margin-top: 45px;
+    display:block;
+    float: left;
+}
+.head ul li {
+    color: white;
+    text-transform: uppercase;
+    display:block;
+    float: left;
+    padding: 0 30px;
+    letter-spacing: 2px;
+}
+.head ul li a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-weight: bold;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.overlay {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.overlay h2 {
+    background: #000 none repeat scroll 0 0;
+    color: #EF4D48;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 5.8823529411765rem;
+    font-weight: 900;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1em;
+}
+.overlay h2 span {
+    color: #FFF;
+}
